@@ -1,0 +1,11 @@
+{
+    "require": {
+        "cakephp/orm": "^3.1",
+        "cakephp/cache": "^3.1"
+    },
+    "autoload" :{
+        "psr-0": {
+            "": "src/"
+        }
+    }
+}
