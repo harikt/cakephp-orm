@@ -1,6 +1,6 @@
 <?php
 require __DIR__ . '/vendor/autoload.php';
-require __DIR__ . '/env.php';
+require dirname(__DIR__) . '/env.php';
 require __DIR__ . '/config/bootstrap.php';
 
 use Cake\ORM\TableRegistry;
